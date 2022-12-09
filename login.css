@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: palevioletred;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    height: 70%;
+    width: 30%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 2px 3px 2px 3px blue;
+
+}
+form>h1{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+form>input{
+    height: 30px;
+    width: 250px;
+    margin-top: 20px;
+}
+form>label{
+    margin-top: 0px;
+    font-size: 18px;
+}
+form>button{
+    height: 30px;
+    width: 90px;
+    margin-top: 20px;
+}
+form>button:hover{
+    transition: all 0.5s ease-in;
+    scale: 1.01;
+    background-color: blueviolet;
+}
+form>p{
+    margin-top: 10px;
+}
